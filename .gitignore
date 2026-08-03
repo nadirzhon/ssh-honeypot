@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets & config
+config.json
+.env
+*.key
+*.pem
+honeypot_rsa
+honeypot_rsa.pub
+
+# Output files
+*.log
+*.db
+report.json
+alerts.json
+results.csv
+
+# OS
+.DS_Store
+Thumbs.db
