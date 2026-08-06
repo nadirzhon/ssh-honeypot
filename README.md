@@ -1,5 +1,7 @@
 # 🍯 SSH Honeypot
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green) ![Tests](https://img.shields.io/badge/tests-passing-success) ![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 Realistic SSH honeypot built with Paramiko. Captures attacker credentials and commands, geolocates IPs, sends Telegram alerts.
 
 ## Features
@@ -29,3 +31,9 @@ python honeypot.py --stats
 ```bash
 iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222
 ```
+
+## Responsible use
+
+This project is published for **defensive research, education, and authorized security testing only**.
+Use it exclusively on systems you own or have explicit written permission to assess. The author
+assumes no liability for misuse. See `SECURITY.md` for the disclosure policy.
